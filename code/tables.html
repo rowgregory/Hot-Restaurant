@@ -11,9 +11,37 @@
     <body>
         <div class="jumbotron text-center">
             <h1 class="display-4">Resturaunt Name</h1>
-            <p>We currently have <span id="tablesRemaining"></span>tables available for booking</p>
-            <a class="btn btn-primary btn-lg" href="http://coldrestaurant.herokuapp.com/tables" role="button">Current Bookings</a>
+            <p>We currently have <span id="tablesRemaining"></span>tables available for booking</p>            
             <a class="btn btn-primary btn-lg" href="http://coldrestaurant.herokuapp.com/reserve" role="button">Make a reservation</a>
+            <a class="btn btn-primary btn-lg" href="http://coldrestaurant.herokuapp.com/" role="button">Home</a>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+
+            <div class="col-sm-10">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Current Reservations</div>
+
+                    <div class="panel-body reservations"></div>
+                </div>
+            </div>
+
+            <div class="col-sm-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+
+            <div class="col-sm-10">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Wait List</div>
+
+                    <div class="panel-body waitList"></div>
+                </div>
+            </div>
+
+            <div class="col-sm-1"></div>     
         </div>
 
         <footer>
