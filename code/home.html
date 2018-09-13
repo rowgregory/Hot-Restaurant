@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Resturaunt Name</h1>
+            <p>We currently have <span id="tablesRemaining"></span>tables available for booking</p>
+            <a class="btn btn-primary btn-lg" href="http://coldrestaurant.herokuapp.com/tables" role="button">Current Bookings</a>
+            <a class="btn btn-primary btn-lg" href="http://coldrestaurant.herokuapp.com/reserve" role="button">Make a reservation</a>
+        </div>
+
+        <footer>
+            <p class="text-center"><a href="http://coldrestaurant.herokuapp.com/api/v0.1/tables">API Tables</a> | <a href="http://coldrestaurant.herokuapp.com/api/v0.1/waitlist">Api Wait List</a></p>
+        </footer>
+
+        
+    </body>
+</html>
